@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Withdrawals</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="business.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container my-5">
+
+		<div class="row flw-heading d-flex justify-content-center my-5 position-relative">
+			<img src="logo.png" class="logo">
+
+			<div class="position-absolute h-100 d-flex align-items-center" style="top: 0; right: 0">
+				<a href="index.html">Sign out</a>
+			</div>
+		</div>
+
+		<div class="row rectangle">
+			<div class="col-4 display">
+				<h3 class="display-amount"> NGN 70,000</h3>
+				<p class="display-description">Available Balance</p>
+			</div>
+
+			<div class="col-4 display border-rectangle">
+				<h3 class="display-amount"> NGN 70,000</h3>
+				<p class="display-description">Total earnings of all time</p>
+			</div>
+
+			<div class="col-4 display border-rectangle">
+				<h3 class="display-amount"> 7</h3>
+				<p class="display-description">Successful withdrawals</p>
+			</div>
+		</div>
+
+		<div class="row tabs-heading">
+			<div class="p-2">
+				<a href="business.html">Businesses</a>
+			</div>
+			<div class="p-2 current-tab">
+				<a href="withdrawal.html">Withdrawals</a>
+			</div>
+			<div class="p-2">
+				<a href="Benefeciary.html">Beneficiares</a>
+			</div>
+			<div class="p-2">
+				<a href="Setting.html">Settings</a>
+			</div>
+		</div>
+
+		<div class="rectangle table-rectangle p-4">
+			<div class="table-responsive">
+				<table class="table table-md">
+					<thead class="table-head">
+						<tr>
+							<th scope="col">Status</th>
+							<th scope="col">Transaction Note</th>
+							<th scope="col">Amount</th>
+							<th scope="col">Recipient</th>
+							<th scope="col"><button type="button" class="btn btn-wthdr font-weight-normal" data-toggle="modal" data-target="#myModal">New withdrawal</button></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row" class="status-cell"><i class="fas fa-check-circle"></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+						<tr>
+							<th scope="row" class="status-cell"><i class="fas fa-check-circle"></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+						<tr>
+							<th scope="row" class="status-cell"><i class="fas fa-check-circle" ></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+						<tr>
+							<th scope="row" class="status-cell"><i class="fas fa-check-circle"></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+						<tr>
+							<th scope="row" class="status-cell"><i class="fas fa-check-circle"></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+						<tr>
+							<th scope="row" class="status-cell"><i class="fas fa-check-circle"></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+						<tr>
+							<th scope="row" class="verify"><i class="fas fa-check-circle"></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+						<tr>
+							<th scope="row" class="status-cell"><i class="fas fa-check-circle"></th>
+								<td class="business-cell">Size 46 boyfriend shoes</td>
+								<td class="revenue-cell">NGN 45,000</td>
+								<td class="earning-cell">Temi Adesina</td>
+								<td class="days-cell">3 days ago</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<footer class="page-footer my-2">
+			<div class="d-flex flex-row justify-content-between">
+				<div class="p-2">Copyright 2018 Flutterwave inc</div>
+				<div class="p-2">Term & Conditions</div>
+				<div class="p-2">Privacy Policy</div>
+			</div>
+		</footer>
+
+
+	 	<!-- Modal -->
+	 	<div class="modal" id="myModal" tableindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	 		<div class="modal-dialog" role="document" style="text-align: left;">
+
+	 			<!-- Modal-->
+	 			<div class="modal-content">
+	 				<div class="modal-header">
+	 					<h4 class="modal-title" id="modalLabel">New withdrawal</h4>
+	 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	 				</div>
+
+	 				<div class="modal-body">
+
+	 					<div class="form-group">
+	 						<label>Amount to send</label>
+	 						<input type="number" class="form-control" id="amt-send">
+	 					</div>
+
+	 					<div class="form-group">
+	 						<label for="bank">Bank name</label>
+	 						<select type="text" class="form-control " id="bank">
+	 							<option selected>Select bank</option>
+	 							<option value="access">Access Bank</option>
+	 							<option value="citibank">Citibank</option>
+	 							<option value="diamond">Diamond Bank</option>
+	 							<option value="ecobank">Ecobank</option>
+	 							<option value="fidelity">Fidelity Bank</option>
+	 							<option value="fcmb">First City Monument Bank (FCMB)</option>
+	 							<option value="fsdh">FSDH Merchant Bank</option>
+	 							<option value="gtb">Guarantee Trust Bank (GTB)</option>
+	 							<option value="heritage">Heritage Bank</option>
+	 							<option value="Keystone">Keystone Bank</option>
+	 							<option value="rand">Rand Merchant Bank</option>
+	 							<option value="skye">Skye Bank</option>
+	 							<option value="stanbic">Stanbic IBTC Bank</option>
+	 							<option value="standard">Standard Chartered Bank</option>
+	 							<option value="sterling">Sterling Bank</option>
+	 							<option value="suntrust">Suntrust Bank</option>
+	 							<option value="union">Union Bank</option>
+	 							<option value="uba">United Bank for Africa (UBA)</option>
+	 							<option value="unity">Unity Bank</option>
+	 							<option value="wema">Wema Bank</option>
+	 							<option value="zenith">Zenith Bank</option>
+	 						</select>
+	 					</div>
+
+	 					<div class="form-group">
+	 						<label>Account Number</label>
+	 						<input type="number" class="form-control" id="acct-no" placeholder="0690000031">
+	 					</div>
+
+	 					<div class="form-group">
+	 						<label>Account name</label>
+	 						<input type="text" class="form-control" id="acct-name" placeholder="Checking account number">
+	 					</div>
+
+	 					<div class="form-group">
+	 						<label>Transaction notes</label>
+	 						<input type="text" class="form-control" id="acct-note" placeholder="Optional">
+	 					</div>
+
+	 					<div class="form-group"><i class="fas fa-exclamation-circle"></i>
+	 						<span>You will be charged NGN 45 for this transaction</span>
+	 					</div>
+	 				</div>
+
+	 				<div class="modal-footer">
+	 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	 					<button type="button" class="btn btn-wthdr px-2">Submit</button>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
